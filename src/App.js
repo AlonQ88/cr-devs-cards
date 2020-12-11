@@ -1,9 +1,15 @@
 import "./App.css";
 import React from "react";
+import Card from "./components/Card";
 
 class App extends React.Component {
   render() {
-    return <div style={{ textAlign: "center" }}>{this.props.title}</div>;
+    return (
+      <div>
+        <div className="header">{this.props.title}</div>
+        <Card />
+      </div>
+    );
   }
 }
 

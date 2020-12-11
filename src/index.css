@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
-header {
+img {
+  vertical-align: middle;
+  width: 75px;
+}
+
+.header {
   text-align: center;
+}
+
+.dev-name {
+  font-weight: bold;
 }
