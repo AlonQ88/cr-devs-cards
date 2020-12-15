@@ -33,3 +33,7 @@ img {
 .dev-name {
   font-weight: bold;
 }
+
+.form {
+  margin-left: 10px;
+}
