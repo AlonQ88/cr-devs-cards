@@ -4,7 +4,7 @@ const CardList = (props) => {
   return (
     <div>
       {props.profiles.map((profile) => (
-        <Card key={profile.Id} {...profile} />
+        <Card {...profile} />
       ))}
     </div>
   );
