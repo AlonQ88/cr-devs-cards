@@ -36,7 +36,7 @@ class App extends React.Component {
     return (
       <div>
         <h1 className="header">{this.props.title}</h1>
-        <Form className="form" />
+        <Form />
         <CardList profiles={this.state.profiles} />
       </div>
     );
